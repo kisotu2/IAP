@@ -1,8 +1,8 @@
 <?php 
-define ('DBTYPE', 'pdo');
+define ('DBTYPE', 'PDO');
 define ('HOSTNAME', 'localhost');
 define ('DBPORT', '3306');
 define ('HOSTUSER', 'root');
 define ('HOSTPASS', '');
-print HOSTNAME;
+define ('HOSTNAME', 'ics_e')
 ?>
