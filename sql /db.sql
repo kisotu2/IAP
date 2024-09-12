@@ -14,3 +14,18 @@ CREATE TABLE IF NOT EXISTS  `users` (
     UNIQUE KEY (`email`),
     PRIMARY KEY (`userId`)
 );
+
+
+CREATE TABLE IF NOT EXISTS  `gender` (
+    `genderId` tinyint (10) NOT  NULL  AUTO_INCREMENT,
+    `gender` varchar (50) not null default '',
+    UNIQUE KEY (`genderId`),
+    PRIMARY KEY (`genderId`)
+);
+
+CREATE TABLE IF NOT EXISTS  `role` (
+    `roleId` tinyint (10) NOT  NULL  AUTO_INCREMENT,
+    `role` varchar (50) not null default '',
+    UNIQUE KEY (`roleId`),
+    PRIMARY KEY (`roleId`)
+);
