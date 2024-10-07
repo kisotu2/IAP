@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <title>Sign Up</title>
+<link rel = "stylesheet" href="../IAP/css/styles.css" >
 </head>
 <body>
     <form method  = "post" action = "sign.php">
